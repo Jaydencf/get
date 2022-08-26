@@ -436,7 +436,7 @@ Download_CasaOS() {
     else
         Casa_Tag="$version"
     fi
-    Casa_Package_URL="https://gitee.com/jayden24/CasaOS/releases/download/CasaOS-V0.3.5_alpha.2/linux-amd64-casaos.tar.gz"
+    Casa_Package_URL="https://gitee.com/jayden24/CasaOS/releases/download/CasaOS-V0.3.5.1/linux-amd64-casaos(1).tar.gz"
     # Remove Temp File
     ${sudo_cmd} rm -rf "$PREFIX/tmp/${Casa_Package}"
     # Download Package
